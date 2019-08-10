@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Plotter
+Bundle-SymbolicName: org.eclipse.tracecompass.ctf.plotter;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.eclipse.tracecompass.ctf.plotter.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.tracecompass.tmf.ui;bundle-version="5.0.0",
+ org.swtchart;bundle-version="0.10.0",
+ org.eclipse.tracecompass.tmf.core;bundle-version="4.2.0",
+ org.eclipse.ui.views;bundle-version="3.9.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: org.eclipse.tracecompass.ctf.plotter
+Bundle-ActivationPolicy: lazy
+Import-Package: org.eclipse.core.resources
