@@ -33,7 +33,7 @@ def load_numbers(filename):
 filename = "log.txt"
 
 # temporary directory holding the CTF trace
-trace_path = "/mnt/c/Users/Stefano/Documents/es/out"
+trace_path = "/home/ctf"
 
 print('trace path: {}'.format(trace_path))
 
