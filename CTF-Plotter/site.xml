@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<site>
-   <feature url="features/CTF_Plotter_1.0.0.201908101511.jar" id="CTF_Plotter" version="1.0.0.201908101511">
-      <category name="ctf-plotters"/>
-   </feature>
-   <category-def name="ctf-plotters" label="CTF plotters"/>
-</site>
