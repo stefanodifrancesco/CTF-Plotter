@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.eclipse.tracecompass.ctf.plotter.feature_1.0.2.201908181951.jar" id="org.eclipse.tracecompass.ctf.plotter.feature" version="1.0.2.201908181951">
+      <category name="ctfplotters"/>
+   </feature>
+   <category-def name="ctfplotters" label="CTF plotters"/>
+</site>
