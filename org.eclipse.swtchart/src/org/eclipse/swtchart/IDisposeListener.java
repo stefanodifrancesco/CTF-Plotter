@@ -1,0 +1,29 @@
+/*******************************************************************************
+ * Copyright (c) 2008, 2019 SWTChart project.
+ *
+ * This program and the accompanying materials are made
+ * available under the terms of the Eclipse Public License 2.0
+ * which is available at https://www.eclipse.org/legal/epl-2.0/
+ *
+ * SPDX-License-Identifier: EPL-2.0
+ * 
+ * Contributors:
+ * yoshitaka - initial API and implementation
+ *******************************************************************************/
+package org.eclipse.swtchart;
+
+import org.eclipse.swt.widgets.Event;
+
+/**
+ * The dispose listener.
+ */
+public interface IDisposeListener {
+
+	/**
+	 * The method to be invoked when the target is disposed.
+	 * 
+	 * @param e
+	 *            the event
+	 */
+	void disposed(Event e);
+}
